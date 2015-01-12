@@ -1,0 +1,13 @@
+{
+  "jspm": {
+    "directories": {
+      "baseURL": "public",
+      "lib": "public/scripts"
+    },
+    "configFile": "public/config/config.js",
+    "dependencies": {
+      "jquery": "github:components/jquery@^2.1.3",
+      "lodash": "npm:lodash@^2.4.1"
+    }
+  }
+}

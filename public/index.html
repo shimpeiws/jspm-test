@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Hello JSPM</title>
+</head>
+<body>
+  <div class="count">0</div>
+  <button class="button">カウントアップ</button>
+
+  <script src="jspm_packages/system.js"></script>
+  <script src="config/config.js"></script><!-- 設定した config.js の場所を指定する -->
+  <script>
+  System.import('app/main'); // app/* は今回の設定では scripts/main に変換される
+  </script>
+</body>
+</html>
